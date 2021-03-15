@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "u",
+    "u",
+    "u"
+  ],
+  "key": {
+    "u": {
+      "item": "ultramod:dark_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ultramod:dark_iron_stick",
+    "count": 1
+  }
+}

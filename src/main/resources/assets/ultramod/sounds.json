@@ -1,0 +1,121 @@
+{
+  "xiutek_1": {
+    "category": "record",
+      "sounds": [
+    {
+      "name": "ultramod:records/xiutek_1",
+      "stream": true
+    }
+      ]
+        },
+
+  "xiutek_2": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "ultramod:records/xiutek_2",
+        "stream": true
+      }
+        ]
+          },
+
+  "xiutek_3": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "ultramod:records/xiutek_3",
+        "stream": true
+      }
+    ]
+  },
+
+  "xiutek_4": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "ultramod:records/xiutek_4",
+        "stream": true
+      }
+    ]
+  },
+
+  "xiutek_5": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "ultramod:records/xiutek_5",
+        "stream": true
+      }
+    ]
+  },
+
+  "xiutek_6": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "ultramod:records/xiutek_6",
+        "stream": true
+      }
+    ]
+  },
+
+  "xiutek_7": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "ultramod:records/xiutek_7",
+        "stream": true
+      }
+    ]
+  },
+
+  "xiutek_8": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "ultramod:records/xiutek_8",
+        "stream": true
+      }
+    ]
+  },
+
+  "xiutek_9": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "ultramod:records/xiutek_9",
+        "stream": true
+      }
+    ]
+  },
+
+  "xiutek_10": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "ultramod:records/xiutek_10",
+        "stream": true
+      }
+    ]
+  },
+
+  "xiutek_11": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "ultramod:records/xiutek_11",
+        "stream": true
+      }
+    ]
+  },
+
+  "xiutek_12": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "ultramod:records/xiutek_12",
+        "stream": true
+      }
+    ]
+  }
+}

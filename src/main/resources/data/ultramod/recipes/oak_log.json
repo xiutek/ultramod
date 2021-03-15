@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/",
+    "U"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "U": {
+      "item": "ultramod:moneda"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_log",
+    "count": 32
+  }
+}

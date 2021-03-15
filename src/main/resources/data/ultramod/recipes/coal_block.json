@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "U"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coal"
+    },
+    "U": {
+      "item": "ultramod:moneda"
+    }
+  },
+  "result": {
+    "item": "minecraft:coal_block",
+    "count": 32
+  }
+}

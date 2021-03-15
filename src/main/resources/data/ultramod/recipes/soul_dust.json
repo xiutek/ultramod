@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "result": "ultramod:soul_dust",
+  "experience": 5,
+  "cookingtime": 1200,
+  "group": "general"
+}

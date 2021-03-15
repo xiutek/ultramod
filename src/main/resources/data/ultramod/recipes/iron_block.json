@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i",
+    "U"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "U": {
+      "item": "ultramod:moneda"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_block",
+    "count": 16
+  }
+}

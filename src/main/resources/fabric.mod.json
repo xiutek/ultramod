@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ultramod",
+  "version": "${version}",
+
+  "name": "Ultramod",
+  "description": "Es mi primer mod en Fabric!",
+  "authors": [
+    "Xiutek"
+  ],
+  "contact": {
+    "homepage": "https://prepaenlinea.mx",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/ultramod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.xiutek.ultramod.Ultramod"
+    ]
+  },
+  "mixins": [
+    "ultramod.mixins.json"
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

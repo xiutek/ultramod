@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ultramod:blocks/dark_iron_block"
+  }
+}

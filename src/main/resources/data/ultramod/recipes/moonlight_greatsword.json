@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "U"
+  ],
+  "key": {
+    "#": {
+      "item": "ultramod:soul_crystal"
+    },
+    "U": {
+      "item": "ultramod:gold_stick"
+    }
+  },
+  "result": {
+    "item": "ultramod:moonlight_greatsword",
+    "count": 1
+  },
+  "group": "general"
+}

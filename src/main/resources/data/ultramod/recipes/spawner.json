@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "U"
+  ],
+  "key": {
+    "#": {
+      "item": "ultramod:soul_crystal"
+    },
+    "U": {
+      "item": "ultramod:moneda"
+    }
+  },
+  "result": {
+    "item": "minecraft:spawner",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "U"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "U": {
+      "item": "ultramod:moneda"
+    }
+  },
+  "result": {
+    "item": "minecraft:cobblestone",
+    "count": 64
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "uuu",
+    " D ",
+    " D "
+  ],
+  "key": {
+    "u": {
+      "item": "ultramod:dark_iron_ingot"
+    },
+    "D": {
+      "item": "ultramod:dark_iron_stick"
+    }
+  },
+  "result": {
+    "item": "ultramod:dark_iron_pickaxe",
+    "count": 1
+  }
+}

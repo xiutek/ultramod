@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "U"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "U": {
+      "item": "ultramod:moneda"
+    }
+  },
+  "result": {
+    "item": "minecraft:cooked_porkchop",
+    "count": 64
+  }
+}

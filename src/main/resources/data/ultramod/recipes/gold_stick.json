@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "g",
+    "g",
+    "g"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ultramod:gold_stick",
+    "count": 1
+  },
+  "group": "general"
+}
