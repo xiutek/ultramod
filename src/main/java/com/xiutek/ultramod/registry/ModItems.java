@@ -35,6 +35,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "moonlight_greatsword"), new USwordBase(new ToolMaterialSC()));
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "dark_iron_halberd"), new HalberdBase(new ToolMaterialDI()));
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "bloody_sword"), new SwordBase(new ToolMaterialBD()));
+        Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "moonlight_pickaxe"), new PickaxeBase(new ToolMaterialSC()));
+        Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "dark_iron_dagger"), new DaggerBase(new ToolMaterialDI()));
 
 
         //ITEMS

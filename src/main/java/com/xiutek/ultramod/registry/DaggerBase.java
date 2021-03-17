@@ -5,8 +5,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
 
-public class HalberdBase extends SwordItem {
-    public HalberdBase(ToolMaterial toolMaterial) {
-        super(toolMaterial, -10, -1.5f, new Item.Settings().group(Ultramod.ITEM_GROUP));
+public class DaggerBase extends SwordItem {
+    public DaggerBase(ToolMaterial toolMaterial) {
+        super(toolMaterial, -14, -0.1f, new Item.Settings().group(Ultramod.ITEM_GROUP));
     }
 }

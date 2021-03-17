@@ -7,18 +7,16 @@ import net.minecraft.recipe.Ingredient;
 public class ToolMaterialDI implements ToolMaterial {
     @Override
     public int getDurability() {
-        return 50;
+        return 3000;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 12;
+        return 4;
     }
 
     @Override
-    public float getAttackDamage() {
-        return 17;
-    }
+    public float getAttackDamage() { return 17; }
 
     @Override
     public int getMiningLevel() {

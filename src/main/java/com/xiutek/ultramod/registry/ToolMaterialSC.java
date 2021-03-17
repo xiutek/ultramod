@@ -6,22 +6,22 @@ import net.minecraft.recipe.Ingredient;
 public class ToolMaterialSC implements ToolMaterial {
     @Override
     public int getDurability() {
-        return 1;
+        return 20;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 0.1f;
+        return 16;
     }
 
     @Override
     public float getAttackDamage() {
-        return 30;
+        return 13;
     }
 
     @Override
     public int getMiningLevel() {
-        return 1;
+        return 4;
     }
 
     @Override

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "D"
+  ],
+  "key": {
+    "#": {
+      "item": "ultramod:dark_iron_block"
+    },
+    "D": {
+      "item": "ultramod:dark_iron_stick"
+    }
+  },
+  "result": {
+    "item": "ultramod:dark_iron_dagger",
+    "count": 1
+  }
+}
