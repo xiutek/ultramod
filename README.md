@@ -35,10 +35,12 @@ Moneda: Sistema de economía basado en una moneda (Prepacoin)
 Música: 12 Tracks en forma de discos por Xiutek (https://open.spotify.com/artist/5qTnLG6ibaUhGHInogBQyy)
 Crafting: Nuevas recetas
 
-### ¡Disfruta Ultramod!]
+### ¡Disfruta Ultramod!
 
 Links:
 
 CurseForge: https://www.curseforge.com/minecraft/mc-mods/ultramod-by-xiutek/
+
 Discord: http://discord.gg/prepaenlinea
+
 Twitch: http://twitch.tw/prepaenlinea
