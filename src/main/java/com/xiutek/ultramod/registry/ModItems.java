@@ -1,8 +1,15 @@
 package com.xiutek.ultramod.registry;
 
 import com.xiutek.ultramod.Ultramod;
+import net.fabricmc.fabric.api.client.rendereregistry.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
+import net.fabricmc.fabric.impl.object.builder.FabricEntityType;
+import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
+import net.minecraft.entity.EntityDimensions;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.SpawnGroup;
 import net.minecraft.item.*;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
@@ -24,6 +31,17 @@ public class ModItems {
     public static final BlockItem DARK_IRON_BLOCK = new BlockItem(ModBlocks.DARK_IRON_BLOCK, new Item.Settings().group(Ultramod.ITEM_GROUP));
     public static final BlockItem SOUL_CRYSTAL_BLOCK = new BlockItem(ModBlocks.SOUL_CRYSTAL_BLOCK, new Item.Settings().group(Ultramod.ITEM_GROUP));
 
+    // PROYECTILES
+
+    public static final EntityType<LunarMagic> LUNAR_MAGIC_ENTITY_TYPE = Registry.register(Registry.ENTITY_TYPE, new Identifier("ultramod", "lunar_magic"), FabricEntityTypeBuilder.<LunarMagic>create(SpawnGroup.MISC, LunarMagic::new)
+            .dimensions(EntityDimensions.fixed(0.25f, 0.25f)) // dimensiones en unidades de MC del proyectil
+            .trackRangeBlocks(4).trackedUpdateRate(10) // previene que el proyectil se rompa
+            .build());
+    public static final Item MOONLIGHT_BALL = new LunarMagicItem(new Item.Settings().group(Ultramod.ITEM_GROUP).maxCount(6));
+    public static final Identifier PacketID = new Identifier(Ultramod.MOD_ID, "spawn_packet");
+
+
+
 
     // REGISTRO
     public static void registerItems() {
@@ -37,7 +55,10 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "bloody_sword"), new SwordBase(new ToolMaterialBD()));
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "moonlight_pickaxe"), new PickaxeBase(new ToolMaterialSC()));
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "dark_iron_dagger"), new DaggerBase(new ToolMaterialDI()));
+        Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "moonlight_bow"), new BowBase(new FabricItemSettings()));
 
+
+        //RENDERS
 
         //ITEMS
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "moneda"), MONEDA);
@@ -48,6 +69,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "gold_stick"), GOLD_STICK);
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "soul_crystal"), SOUL_CRYSTAL_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "c_flute"), C_FLUTE);
+        Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "moonlight_ball"), MOONLIGHT_BALL);
 
         //MUSICA
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "xiutek_1"), new ModMusic(1, new SoundEvent(new Identifier("ultramod", "xiutek_1")), new FabricItemSettings()));
