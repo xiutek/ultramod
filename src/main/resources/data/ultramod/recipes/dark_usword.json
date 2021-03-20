@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "ultramod:dark_sword"
+  },
+  "addition": {
+    "item": "ultramod:titanite_slab"
+  },
+  "result": {
+    "item": "ultramod:dark_usword"
+  }
+}

@@ -16,11 +16,11 @@ public class ToolMaterialDI implements ToolMaterial {
     }
 
     @Override
-    public float getAttackDamage() { return 17; }
+    public float getAttackDamage() { return 18; }
 
     @Override
     public int getMiningLevel() {
-        return 4;
+        return 3;
     }
 
     @Override
@@ -30,6 +30,6 @@ public class ToolMaterialDI implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.CRYING_OBSIDIAN);
+        return Ingredient.ofItems(ModItems.DARK_IRON_BLOCK);
     }
 }

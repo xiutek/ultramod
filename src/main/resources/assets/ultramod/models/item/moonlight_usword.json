@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "ultramod:items/moonlight_greatsword"
+    "layer0": "ultramod:items/moonlight_usword"
   }
 }

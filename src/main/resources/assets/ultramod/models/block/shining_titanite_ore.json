@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ultramod:blocks/shining_titanite_ore"
+  }
+}

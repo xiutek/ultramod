@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "ultramod:dark_iron_sword"
+  },
+  "addition": {
+    "item": "ultramod:fire_gem"
+  },
+  "result": {
+    "item": "ultramod:fire_sword"
+  }
+}

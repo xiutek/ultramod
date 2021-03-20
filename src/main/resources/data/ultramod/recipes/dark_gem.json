@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "U"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "U": {
+      "item": "ultramod:titanite_slab"
+    }
+  },
+  "result": {
+    "item": "ultramod:dark_gem",
+    "count": 1
+  }
+}

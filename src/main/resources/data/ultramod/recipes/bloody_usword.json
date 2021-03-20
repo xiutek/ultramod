@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "ultramod:bloody_sword"
+  },
+  "addition": {
+    "item": "ultramod:titanite_slab"
+  },
+  "result": {
+    "item": "ultramod:bloody_usword"
+  }
+}

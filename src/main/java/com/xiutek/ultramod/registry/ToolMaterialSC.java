@@ -16,7 +16,7 @@ public class ToolMaterialSC implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 13;
+        return 10;
     }
 
     @Override
@@ -31,7 +31,7 @@ public class ToolMaterialSC implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.SOUL_DUST);
+            return Ingredient.ofItems(ModItems.SOUL_CRYSTAL_BLOCK);
 
     }
 }

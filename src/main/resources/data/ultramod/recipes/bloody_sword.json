@@ -1,23 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#P#",
-    "PUP",
-    "#P#"
-  ],
-  "key": {
-    "#": {
-      "item": "ultramod:soul_dust"
-    },
-    "P": {
-      "item": "minecraft:player_head"
-    },
-    "U": {
-      "item": "ultramod:dark_iron_sword"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "ultramod:dark_iron_sword"
+  },
+  "addition": {
+    "item": "ultramod:blood_gem"
   },
   "result": {
-    "item": "ultramod:bloody_sword",
-    "count": 1
+    "item": "ultramod:bloody_sword"
   }
 }

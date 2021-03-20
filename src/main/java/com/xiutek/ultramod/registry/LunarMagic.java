@@ -70,10 +70,10 @@ public class LunarMagic extends ThrownItemEntity {
         entity.damage(DamageSource.thrownProjectile(this, this.getOwner()), (float)i); // deals damage
 
         if (entity instanceof LivingEntity) { // checks if entity is an instance of LivingEntity (meaning it is not a boat or minecart)
-            ((LivingEntity) entity).addStatusEffect((new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 20 * 3, 200000))); // applies a status effect
+            ((LivingEntity) entity).addStatusEffect((new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 20 * 3, 30))); // applies a status effect
             ((LivingEntity) entity).addStatusEffect((new StatusEffectInstance(StatusEffects.SLOWNESS, 20 * 3, 5))); // applies a status effect
-            ((LivingEntity) entity).addStatusEffect((new StatusEffectInstance(StatusEffects.BLINDNESS, 20 * 3, 5))); // applies a status effect
-            ((LivingEntity) entity).addStatusEffect((new StatusEffectInstance(StatusEffects.WEAKNESS, 20*30, 10)));
+            ((LivingEntity) entity).addStatusEffect((new StatusEffectInstance(StatusEffects.BLINDNESS, 20 * 6, 10))); // applies a status effect
+            ((LivingEntity) entity).addStatusEffect((new StatusEffectInstance(StatusEffects.WEAKNESS, 20* 10, 10)));
             entity.playSound(SoundEvents.BLOCK_GLASS_BREAK, 6F, 1F); // plays a sound for the entity hit only
         }
     }

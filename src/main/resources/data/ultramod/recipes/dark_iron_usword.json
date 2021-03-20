@@ -1,20 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#",
-    "#",
-    "D"
-  ],
-  "key": {
-    "#": {
-      "item": "ultramod:dark_iron_block"
-    },
-    "D": {
-      "item": "ultramod:dark_iron_stick"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "ultramod:dark_iron_sword"
+  },
+  "addition": {
+    "item": "ultramod:titanite_slab"
   },
   "result": {
-    "item": "ultramod:dark_iron_usword",
-    "count": 1
+    "item": "ultramod:dark_iron_usword"
   }
 }

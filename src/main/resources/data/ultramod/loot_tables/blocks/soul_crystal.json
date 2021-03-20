@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ultramod:soul_dust",
+          "name": "ultramod:moonlight",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 4
+                "min": 4,
+                "max": 12
               }
             }
           ]

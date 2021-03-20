@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "ultramod:moonlight"
+  },
+  "result": "ultramod:soul_remnant",
+  "experience": 130,
+  "cookingtime": 600
+}

@@ -117,5 +117,15 @@
         "stream": true
       }
     ]
+  },
+
+  "armor_sc": {
+    "sounds": [
+      {
+        "name": "ultramod:armor_sc",
+        "stream": true
+      }
+    ]
   }
+
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "ultramod:moonlight_sword"
+  },
+  "addition": {
+    "item": "ultramod:blue_titanite_slab"
+  },
+  "result": {
+    "item": "ultramod:moonlight_usword"
+  }
+}

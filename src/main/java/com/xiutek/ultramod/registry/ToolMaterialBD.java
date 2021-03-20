@@ -7,7 +7,7 @@ import net.minecraft.recipe.Ingredient;
 public class ToolMaterialBD implements ToolMaterial {
     @Override
     public int getDurability() {
-        return 700;
+        return 1200;
     }
 
     @Override
@@ -17,12 +17,12 @@ public class ToolMaterialBD implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 25;
+        return 20;
     }
 
     @Override
     public int getMiningLevel() {
-        return 3;
+        return 0;
     }
 
     @Override
@@ -32,6 +32,6 @@ public class ToolMaterialBD implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.PLAYER_HEAD);
+        return Ingredient.ofItems(ModItems.BLOOD_GEM);
     }
 }

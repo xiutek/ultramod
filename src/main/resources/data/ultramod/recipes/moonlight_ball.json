@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#U#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gunpowder"
+    },
+    "U": {
+      "item": "ultramod:soul_crystal"
+    }
+  },
+  "result": {
+    "item": "ultramod:moonlight_ball",
+    "count": 8
+  }
+}

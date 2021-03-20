@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "ultramod:fire_sword"
+  },
+  "addition": {
+    "item": "ultramod:titanite_slab"
+  },
+  "result": {
+    "item": "ultramod:fire_usword"
+  }
+}

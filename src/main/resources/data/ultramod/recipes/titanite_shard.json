@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ultramod:titanite_dust"
+    }
+  },
+  "result": {
+    "item": "ultramod:titanite_shard",
+    "count": 1
+  }
+}

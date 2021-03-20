@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "U"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:zombie_head"
+    },
+    "U": {
+      "item": "ultramod:titanite_slab"
+    }
+  },
+  "result": {
+    "item": "ultramod:blood_gem",
+    "count": 1
+  }
+}

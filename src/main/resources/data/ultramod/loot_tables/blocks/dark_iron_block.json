@@ -5,11 +5,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ultramod:dark_iron_ingot",
+          "name": "ultramod:dark_iron",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 8
+              "count": {
+                "min": 7,
+                "max": 9
+              }
             }
           ]
         }
