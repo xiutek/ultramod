@@ -117,13 +117,5 @@
         "stream": true
       }
     ]
-  },
-
-  "basic_flute_sound": {
-    "subtitle": "subtitles.tutorial.basic_flute_sound",
-    "sounds": [
-      "ultramod:basic_flute_sound"
-    ]
   }
-
 }

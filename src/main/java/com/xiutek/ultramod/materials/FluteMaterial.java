@@ -1,37 +1,37 @@
-package com.xiutek.ultramod.registry;
+package com.xiutek.ultramod.materials;
 
+import com.xiutek.ultramod.registry.ModItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class ToolMaterialSC implements ToolMaterial {
+public class FluteMaterial implements ToolMaterial {
     @Override
     public int getDurability() {
-        return 20;
+        return 1;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 16;
+        return 0;
     }
 
     @Override
     public float getAttackDamage() {
-        return 10;
+        return 30;
     }
 
     @Override
     public int getMiningLevel() {
-        return 4;
+        return 0;
     }
 
     @Override
     public int getEnchantability() {
-        return 60;
+        return 99;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-            return Ingredient.ofItems(ModItems.SOUL_CRYSTAL_BLOCK);
-
+        return Ingredient.ofItems(ModItems.BLOOD_GEM);
     }
 }

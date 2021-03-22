@@ -1,4 +1,4 @@
-package com.xiutek.ultramod.registry;
+package com.xiutek.ultramod.things;
 
 import com.xiutek.ultramod.Ultramod;
 import net.minecraft.item.*;

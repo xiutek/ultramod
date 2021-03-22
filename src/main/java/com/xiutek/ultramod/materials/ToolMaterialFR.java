@@ -1,35 +1,37 @@
-package com.xiutek.ultramod.registry;
+package com.xiutek.ultramod.materials;
 
-import net.minecraft.item.Items;
+import com.xiutek.ultramod.registry.ModItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class ToolMaterialDI implements ToolMaterial {
+public class ToolMaterialFR implements ToolMaterial {
     @Override
     public int getDurability() {
-        return 3000;
+        return 750;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 6;
-    }
-
-    @Override
-    public float getAttackDamage() { return 19; }
-
-    @Override
-    public int getMiningLevel() {
-        return 4;
-    }
-
-    @Override
-    public int getEnchantability() {
         return 0;
     }
 
     @Override
+    public float getAttackDamage() {
+        return 16;
+    }
+
+    @Override
+    public int getMiningLevel() {
+        return 0;
+    }
+
+    @Override
+    public int getEnchantability() {
+        return 20;
+    }
+
+    @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.DARK_IRON_BLOCK);
+        return Ingredient.ofItems(ModItems.FIRE_GEM);
     }
 }

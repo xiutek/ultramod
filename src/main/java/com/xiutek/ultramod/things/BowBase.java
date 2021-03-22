@@ -1,4 +1,4 @@
-package com.xiutek.ultramod.registry;
+package com.xiutek.ultramod.things;
 
 import net.minecraft.item.BowItem;
 

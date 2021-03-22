@@ -6,17 +6,17 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ultramod:dark_iron",
+          "name": "ultramod:titanite_dust",
           "functions": [
             {
-              "function": "minecraft:looting_enchant",
+              "function": "minecraft:set_count",
               "count": {
-                "min": 0,
-                "max": 1
+                "min": 1,
+                "max": 4
               }
             },
             {
-              "function": "minecraft:set_count",
+              "function": "minecraft:looting_enchant",
               "count": {
                 "min": 0,
                 "max": 1

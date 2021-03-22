@@ -1,12 +1,13 @@
-package com.xiutek.ultramod.registry;
+package com.xiutek.ultramod.materials;
 
+import com.xiutek.ultramod.registry.ModItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class FluteMaterial implements ToolMaterial {
+public class ToolMaterialDK implements ToolMaterial {
     @Override
     public int getDurability() {
-        return 1;
+        return 750;
     }
 
     @Override
@@ -16,7 +17,7 @@ public class FluteMaterial implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 30;
+        return 15;
     }
 
     @Override
@@ -26,11 +27,11 @@ public class FluteMaterial implements ToolMaterial {
 
     @Override
     public int getEnchantability() {
-        return 99;
+        return 30;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.BLOOD_GEM);
+        return Ingredient.ofItems(ModItems.DARK_GEM);
     }
 }

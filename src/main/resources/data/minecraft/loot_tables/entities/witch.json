@@ -9,13 +9,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ultramod:soul_remnant",
+          "name": "ultramod:shining_titanite_dust",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 0,
-                "max": 2
+                "max": 3
               }
             },
             {
@@ -130,7 +130,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "ultramod:gold_stick",
+          "name": "minecraft:stick",
           "functions": [
             {
               "function": "minecraft:set_count",

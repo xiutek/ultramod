@@ -1,5 +1,6 @@
-package com.xiutek.ultramod.registry;
+package com.xiutek.ultramod.materials;
 
+import com.xiutek.ultramod.registry.ModItems;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -7,7 +8,7 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
 
-public class ModArmorDI implements ArmorMaterial {
+public class ArmorMaterialDI implements ArmorMaterial {
     private static final int[] BASE_DURABILITY = new int[] {20, 20, 20, 20}; // CASCO, ARMADURA, GREBAS, BOTAS
     private static final int[] PROTECTION_VALUES = new int[] {4, 10, 8, 4};
 
