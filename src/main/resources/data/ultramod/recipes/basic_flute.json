@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "___",
+    "UUU",
+    "___"
+  ],
+  "key": {
+    "_": {
+      "item": "minecraft:jungle_slab"
+    },
+    "U": {
+      "item": "ultramod:soul_crystal"
+    }
+  },
+  "result": {
+    "item": "ultramod:basic_flute",
+    "count": 1
+  }
+}

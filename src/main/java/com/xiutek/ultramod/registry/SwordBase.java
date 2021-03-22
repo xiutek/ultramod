@@ -7,6 +7,6 @@ import net.minecraft.item.ToolMaterial;
 
 public class SwordBase extends SwordItem {
     public SwordBase(ToolMaterial toolMaterial) {
-        super(toolMaterial, 0, -2.6f, new Item.Settings().group(Ultramod.ITEM_GROUP));
+        super(toolMaterial, -10, -2.3f, new Item.Settings().group(Ultramod.ITEM_GROUP));
     }
 }

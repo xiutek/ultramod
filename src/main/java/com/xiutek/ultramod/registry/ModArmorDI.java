@@ -9,7 +9,7 @@ import net.minecraft.sound.SoundEvents;
 
 public class ModArmorDI implements ArmorMaterial {
     private static final int[] BASE_DURABILITY = new int[] {20, 20, 20, 20}; // CASCO, ARMADURA, GREBAS, BOTAS
-    private static final int[] PROTECTION_VALUES = new int[] {6, 16, 14, 3};
+    private static final int[] PROTECTION_VALUES = new int[] {4, 10, 8, 4};
 
     @Override
     public int getDurability(EquipmentSlot slot) {

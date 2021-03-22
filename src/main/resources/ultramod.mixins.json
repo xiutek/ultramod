@@ -3,11 +3,8 @@
   "minVersion": "0.8",
   "package": "com.xiutek.ultramod.mixins",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [
-  ],
-  "client": [
-
-  ],
+  "mixins": [],
+  "client": [],
   "injectors": {
     "defaultRequire": 1
   }

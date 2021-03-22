@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#U#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:fire_charge"
+    },
+    "U": {
+      "item": "ultramod:titanite_slab"
+    }
+  },
+  "result": {
+    "item": "ultramod:fire_gem",
+    "count": 1
+  }
+}

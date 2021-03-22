@@ -119,12 +119,10 @@
     ]
   },
 
-  "armor_sc": {
+  "basic_flute_sound": {
+    "subtitle": "subtitles.tutorial.basic_flute_sound",
     "sounds": [
-      {
-        "name": "ultramod:armor_sc",
-        "stream": true
-      }
+      "ultramod:basic_flute_sound"
     ]
   }
 

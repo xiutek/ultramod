@@ -12,15 +12,15 @@ public class ToolMaterialDI implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 4;
+        return 6;
     }
 
     @Override
-    public float getAttackDamage() { return 18; }
+    public float getAttackDamage() { return 19; }
 
     @Override
     public int getMiningLevel() {
-        return 3;
+        return 4;
     }
 
     @Override

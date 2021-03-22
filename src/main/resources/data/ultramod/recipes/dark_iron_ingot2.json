@@ -4,6 +4,6 @@
     "item": "ultramod:dark_iron"
   },
   "result": "ultramod:dark_iron_ingot",
-  "experience": 20,
-  "cookingtime": 4500
+  "experience": 50,
+  "cookingtime": 2500
 }

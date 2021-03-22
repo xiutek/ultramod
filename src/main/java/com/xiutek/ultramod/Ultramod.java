@@ -1,6 +1,5 @@
 package com.xiutek.ultramod;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import com.xiutek.ultramod.registry.EntitySpawnPacket;
 import com.xiutek.ultramod.registry.ModBlocks;
 import com.xiutek.ultramod.registry.ModItems;
@@ -29,7 +28,6 @@ import net.minecraft.world.gen.decorator.RangeDecoratorConfig;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
-
 import java.util.UUID;
 
 
@@ -49,11 +47,11 @@ public class Ultramod implements ModInitializer {
 
     // GENERACION DE ORES EN EL MUNDO
 
-    private static ConfiguredFeature <?, ?> TITANITE_ORE_OVERWORLD = Feature.ORE
+    private static ConfiguredFeature<?, ?> TITANITE_ORE_OVERWORLD = Feature.ORE
             .configure(new OreFeatureConfig(
                     OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,
                     ModBlocks.TITANITE_ORE.getDefaultState(),
-            11)) // tamaño de la vena
+                    11)) // tamaño de la vena
             .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(
                     20,
                     35,
@@ -61,7 +59,7 @@ public class Ultramod implements ModInitializer {
             .spreadHorizontally()
             .repeat(10); // numero de venas por chunk
 
-    private static ConfiguredFeature <?, ?> SHINING_TITANITE_ORE_OVERWORLD = Feature.ORE
+    private static ConfiguredFeature<?, ?> SHINING_TITANITE_ORE_OVERWORLD = Feature.ORE
             .configure(new OreFeatureConfig(
                     OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,
                     ModBlocks.SHINIGH_TITANITE_ORE.getDefaultState(),
@@ -114,6 +112,7 @@ public class Ultramod implements ModInitializer {
     }
 
 
+
     // INICIALIZADOR
 
     @Override
@@ -135,12 +134,12 @@ public class Ultramod implements ModInitializer {
 
 
         //INICIAR ORES
-        RegistryKey<ConfiguredFeature<?,?>> TitaniteOreOverworld = RegistryKey.of(Registry.CONFIGURED_FEATURE_WORLDGEN,
+        RegistryKey<ConfiguredFeature<?, ?>> TitaniteOreOverworld = RegistryKey.of(Registry.CONFIGURED_FEATURE_WORLDGEN,
                 new Identifier("ultramod", "titanite_ore_overworld"));
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, TitaniteOreOverworld.getValue(), TITANITE_ORE_OVERWORLD);
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, TitaniteOreOverworld);
 
-        RegistryKey<ConfiguredFeature<?,?>> ShiningTitaniteOreOverworld = RegistryKey.of(Registry.CONFIGURED_FEATURE_WORLDGEN,
+        RegistryKey<ConfiguredFeature<?, ?>> ShiningTitaniteOreOverworld = RegistryKey.of(Registry.CONFIGURED_FEATURE_WORLDGEN,
                 new Identifier("ultramod", "shining_titanite_ore_overworld"));
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, ShiningTitaniteOreOverworld.getValue(), SHINING_TITANITE_ORE_OVERWORLD);
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, ShiningTitaniteOreOverworld);
@@ -149,5 +148,8 @@ public class Ultramod implements ModInitializer {
                 new Identifier("ultramod", "dark_iron_block_nether"));
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, oreDarkIronBlockNether.getValue(), DARK_IRON_BLOCK_NETHER);
         BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(), GenerationStep.Feature.UNDERGROUND_ORES, oreDarkIronBlockNether);
+
+
+
     }
 }

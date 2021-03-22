@@ -1,12 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#",
-    "U"
+    "###",
+    "#U#",
+    "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:creeper_head"
     },
     "U": {
       "item": "ultramod:titanite_slab"

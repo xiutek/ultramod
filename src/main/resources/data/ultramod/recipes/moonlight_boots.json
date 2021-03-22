@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "ultramod:soul_crystal"
+    }
+  },
+  "result": {
+    "item": "ultramod:moonlight_boots",
+    "count": 1
+  }
+}

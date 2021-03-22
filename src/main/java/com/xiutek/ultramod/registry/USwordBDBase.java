@@ -7,6 +7,6 @@ import net.minecraft.item.ToolMaterial;
 
 public class USwordBDBase extends SwordItem {
     public USwordBDBase(ToolMaterial toolMaterial) {
-        super(toolMaterial, 6, -3.1f, new Item.Settings().group(Ultramod.ITEM_GROUP));
+        super(toolMaterial, -4, -2.7f, new Item.Settings().group(Ultramod.ITEM_GROUP));
     }
 }

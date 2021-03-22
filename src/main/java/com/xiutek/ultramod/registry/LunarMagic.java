@@ -1,6 +1,5 @@
 package com.xiutek.ultramod.registry;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.entity.Entity;

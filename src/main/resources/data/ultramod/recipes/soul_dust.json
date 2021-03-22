@@ -4,7 +4,7 @@
     "item": "minecraft:diamond"
   },
   "result": "ultramod:soul_dust",
-  "experience": 5,
-  "cookingtime": 1200,
+  "experience": 200,
+  "cookingtime": 3200,
   "group": "general"
 }

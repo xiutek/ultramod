@@ -12,7 +12,7 @@
   "item.ultramod.gold_stick": "Vara de oro",
   "block.ultramod.soul_crystal": "Cristal del Alma",
   "item.ultramod.xiutek_1": "Xiutek - Último Sueño",
-  "item.ultramod.c_flute": "Flauta básica afinada en Do",
+  "item.ultramod.basic_flute": "Flauta básica sin afinar",
   "item.ultramod.xiutek_2": "Xiutek - Preludio",
   "item.ultramod.xiutek_3": "Xiutek - Primer Sueño",
   "item.ultramod.xiutek_4": "Xiutek - Segundo Sueño",
@@ -61,6 +61,5 @@
   "item.ultramod.dark_iron_boots": "Botas de Hierro negro",
   "item.ultramod.dark_iron": "Restos de Hierro negro",
   "item.ultramod.soul_remnant": "Remanente del Alma"
-
 
 }

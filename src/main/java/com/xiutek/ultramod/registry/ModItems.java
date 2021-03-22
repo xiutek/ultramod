@@ -3,6 +3,7 @@ package com.xiutek.ultramod.registry;
 import com.xiutek.ultramod.Ultramod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
+import net.minecraft.client.sound.Sound;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EquipmentSlot;
@@ -22,7 +23,6 @@ public class ModItems {
     public static final Item DARK_IRON_STICK = new Item(new Item.Settings().group(Ultramod.ITEM_GROUP));
     public static final Item SOUL_DUST = new Item(new Item.Settings().group(Ultramod.ITEM_GROUP));
     public static final Item GOLD_STICK = new Item(new Item.Settings().group(Ultramod.ITEM_GROUP));
-    public static final Item C_FLUTE = new Item(new Item.Settings().group(Ultramod.ITEM_GROUP));
     public static final Item TITANITE_DUST = new Item(new Item.Settings().group(Ultramod.ITEM_GROUP).maxCount(64));
     public static final Item SHINING_TITANITE_DUST = new Item(new Item.Settings().group(Ultramod.ITEM_GROUP).maxCount(32));
     public static final Item TITANITE_SHARD = new Item(new Item.Settings().group(Ultramod.ITEM_GROUP).maxCount(9));
@@ -36,6 +36,11 @@ public class ModItems {
     public static final Item FIRE_GEM = new Item(new Item.Settings().group(Ultramod.ITEM_GROUP).maxCount(1));
     public static final Item DARK_GEM = new Item(new Item.Settings().group(Ultramod.ITEM_GROUP).maxCount(1));
     public static final Item SOUL_REMNANT = new Item(new Item.Settings().group(Ultramod.ITEM_GROUP).maxCount(36));
+
+    // FLAUTAS
+    public static final Identifier BASIC_FLUTE_ID = new Identifier("ultramod:basic_flute_sound");
+    public static SoundEvent BASIC_FLUTE_EVENT = new SoundEvent(BASIC_FLUTE_ID);
+
 
     // ARMADURA Y MATERIALES
     public static final ArmorMaterial moonlightArmorMaterial = new ModArmorSC();
@@ -110,6 +115,9 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "dark_iron_leggings"), DARK_IRON_LEGGINGS);
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "dark_iron_boots"),DARK_IRON_BOOTS);
 
+        // FLAUTAS
+        Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "basic_flute"), new FluteBase(new FluteMaterial()));
+        Registry.register(Registry.SOUND_EVENT, BASIC_FLUTE_ID, BASIC_FLUTE_EVENT);
 
         //ITEMS
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "moneda"), MONEDA);
@@ -119,7 +127,6 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "soul_dust"), SOUL_DUST);
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "gold_stick"), GOLD_STICK);
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "soul_crystal"), SOUL_CRYSTAL_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "c_flute"), C_FLUTE);
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "moonlight_ball"), MOONLIGHT_BALL);
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "titanite_ore"), TITANITE_ORE);
         Registry.register(Registry.ITEM, new Identifier(Ultramod.MOD_ID, "shining_titanite_ore"), SHINING_TITANITE_ORE);

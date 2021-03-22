@@ -27,14 +27,14 @@ public class ModBlocks {
             );
 
     public static final Block TITANITE_ORE = new Block(FabricBlockSettings
-            .of(Material.SOIL)
+            .of(Material.STONE)
             .breakByTool(FabricToolTags.PICKAXES, 3)
             .requiresTool()
             .strength(6f,30f)
             .sounds(BlockSoundGroup.SAND));
 
     public static final Block SHINIGH_TITANITE_ORE = new Block(FabricBlockSettings
-            .of(Material.SOIL)
+            .of(Material.STONE)
             .breakByTool(FabricToolTags.PICKAXES, 3)
             .requiresTool()
             .strength(4f,10f)
